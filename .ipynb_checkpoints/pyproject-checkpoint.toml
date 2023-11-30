@@ -1,0 +1,9 @@
+[tool.ruff]
+ignore-init-module-imports = true
+ignore = ["E501", "F403"]
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.pydocstyle]
+convention = "google"
